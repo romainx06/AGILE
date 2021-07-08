@@ -1,0 +1,51 @@
+body {
+  margin: 0 20%;
+  font-family: "Open Sans", sans-serif;
+}
+
+input[type="button"] {
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  padding: 12px;
+  width: 200px;
+  background: #ec5353;
+  color: white;
+  transition: 0.3s;
+}
+
+input[type="button"]:hover {
+  cursor: pointer;
+  transform: rotate(2deg);
+}
+
+input[type="button"]:active {
+  transform: scale(0.98);
+}
+
+input {
+  border-radius: 2px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 60%;
+  /* haut | droit | bas | gauche */
+  padding: 10px 20px 10px 15px;
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: solid rgb(87, 87, 87) 1px;
+  font-family: "Open Sans", sans-serif;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border: solid black 1px;
+}
