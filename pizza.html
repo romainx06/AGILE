@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pizza</title>
+  </head>
+  <body>
+    <div>
+      <h1 id="test">Ingredient avant cuisson</h1>
+      <div>
+        <label>base tomate</label>
+        <input type="number" id="tomate" name="tomate" />
+      </div>
+      <div>
+        <label>morceau de jambon</label>
+        <input type="number" id="jambon" name="jambon" />
+      </div>
+      <div>
+        <label>morceau de d'ananas</label>
+        <input type="number" id="ananas" name="ananas" />
+      </div>
+    </div>
+    <div>
+      <h1>Cuisson</h1>
+      <div>
+        <input
+          type="button"
+          id="cuire"
+          name="cuire"
+          value="Cuire"
+          onclick="cuire();"
+        />
+      </div>
+    </div>
+    <div>
+      <h1>Ingredient apres cuisson</h1>
+      <div>
+        <label>lamelles de roquette</label>
+        <input type="number" id="roquette" name="roquette" />
+      </div>
+    </div>
+    <div>
+      <h1>Service</h1>
+      <div>
+        <input
+          type="button"
+          id="servir"
+          name="servir"
+          value="Servir"
+          onclick="cookedPizza();"
+        />
+      </div>
+    </div>
+    <h1>Inventaire</h1>
+    <div id="inv"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
