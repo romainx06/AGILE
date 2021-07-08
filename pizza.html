@@ -3,20 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <title>Pizza</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div>
       <h1 id="test">Ingredient avant cuisson</h1>
       <div>
-        <label>base tomate</label>
+        <label>Base tomate</label><br />
         <input type="number" id="tomate" name="tomate" />
       </div>
       <div>
-        <label>morceau de jambon</label>
+        <label>Morceau de jambon</label><br />
         <input type="number" id="jambon" name="jambon" />
       </div>
       <div>
-        <label>morceau de d'ananas</label>
+        <label>Morceau de d'ananas</label><br />
         <input type="number" id="ananas" name="ananas" />
       </div>
     </div>
@@ -35,7 +42,7 @@
     <div>
       <h1>Ingredient apres cuisson</h1>
       <div>
-        <label>lamelles de roquette</label>
+        <label>Lamelles de roquette</label><br />
         <input type="number" id="roquette" name="roquette" />
       </div>
     </div>
@@ -52,7 +59,7 @@
       </div>
     </div>
     <h1>Inventaire</h1>
-    <div id="inv"></div>
+    <ul id="inv"></ul>
     <script src="index.js"></script>
   </body>
 </html>

@@ -12,9 +12,9 @@ function cuire() {
   console.log(tomateValue, jambonValue, ananasValue);
   if (tomateValue == 1 && jambonValue == 3 && ananasValue == 3) {
     inv.innerHTML +=
-      '<p class="text is-cooking">Pizza hawaienne' +
+      '<li class="text is-cooking">Pizza hawaienne' +
       displayPayload(getPayload(tomateValue, jambonValue, ananasValue)) +
-      "</p>";
+      "</li>";
   } else if (
     tomateValue == 1 &&
     !jambonValue &&
@@ -23,9 +23,9 @@ function cuire() {
     ananasValue == 0
   ) {
     inv.innerHTML +=
-      '<p class="text is-cooking">Pizza rucola' +
+      '<li class="text is-cooking">Pizza rucola' +
       displayPayload(getPayload(tomateValue, jambonValue, ananasValue)) +
-      "</p>";
+      "</li>";
   } else {
     alert("Pas les bons ingredients");
   }
